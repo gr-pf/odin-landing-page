@@ -1,9 +1,11 @@
 body {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   margin: 0;
   font-family: Roboto, sans-serif;
   flex: 1;
+  width: 100uv;
 }
 
 header {
@@ -192,4 +194,13 @@ cite {
 }
 #but-su-01:active {
   border: 1px solid;
+}
+
+footer {
+  width: 100%;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  text-align: center;
+  padding: 2.5rem;
 }
